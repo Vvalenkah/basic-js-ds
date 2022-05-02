@@ -16,7 +16,9 @@ class BinarySearchTree {
     }
 
     add(data) {
+
         this.root = addData(this.root, data);
+
 
         function addData(node, data) {
             if (!node) {
